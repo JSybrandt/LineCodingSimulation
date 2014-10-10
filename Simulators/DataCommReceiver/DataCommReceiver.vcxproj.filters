@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Block">
+      <UniqueIdentifier>{63098ec0-eae7-4d46-b0f0-38ba454b6dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Line">
+      <UniqueIdentifier>{990013b3-509e-4911-a811-70b0fca6afdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Block">
+      <UniqueIdentifier>{a0ef710f-28de-4d68-8cf2-b2c44e11291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Line">
+      <UniqueIdentifier>{485fb342-e556-4362-a9b7-9add26625a44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDecoder.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockPassDec.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDecoder.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="NRZ_L_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="NRZ_I_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="MLT_3_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="AMI_HDB3_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="AMI_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="AMI_B8ZS_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="2B1Q_Dec.cpp">
+      <Filter>Source Files\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="4B5BDecoder.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDecoder.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockPassDec.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDecoder.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="NRZ_L_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="NRZ_I_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="MLT_3_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AMI_HDB3_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AMI_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AMI_B8ZS_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="2B1Q_Dec.h">
+      <Filter>Header Files\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="4B5BDecoder.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

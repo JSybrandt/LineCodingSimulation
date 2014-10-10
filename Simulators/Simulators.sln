@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataCommTransmitter", "DataCommTransmitter\DataCommTransmitter.vcxproj", "{7545E9B8-29BC-4AB2-9F8A-8AA9526EEFD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataCommReceiver", "DataCommReceiver\DataCommReceiver.vcxproj", "{78B74E7B-313B-4209-9DC4-231F91F79AF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7545E9B8-29BC-4AB2-9F8A-8AA9526EEFD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7545E9B8-29BC-4AB2-9F8A-8AA9526EEFD9}.Debug|Win32.Build.0 = Debug|Win32
+		{7545E9B8-29BC-4AB2-9F8A-8AA9526EEFD9}.Release|Win32.ActiveCfg = Release|Win32
+		{7545E9B8-29BC-4AB2-9F8A-8AA9526EEFD9}.Release|Win32.Build.0 = Release|Win32
+		{78B74E7B-313B-4209-9DC4-231F91F79AF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78B74E7B-313B-4209-9DC4-231F91F79AF6}.Debug|Win32.Build.0 = Debug|Win32
+		{78B74E7B-313B-4209-9DC4-231F91F79AF6}.Release|Win32.ActiveCfg = Release|Win32
+		{78B74E7B-313B-4209-9DC4-231F91F79AF6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
